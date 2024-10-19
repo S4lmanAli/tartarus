@@ -3,7 +3,7 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Lahore, Pakistan',
     scale: "C",
   },
   clock: {
@@ -30,7 +30,7 @@ const default_config = {
   tabs: [
     {
       name: "chi ll",
-      background_url: "src/img/banners/cbg-2.gif",
+      background_url: "src/img/banners/cbg-13.gif",
       categories: [{
         name: "Social Media",
         links: [
@@ -47,10 +47,11 @@ const default_config = {
             icon_color: "#7daea3",
           },
           {
-            name: "reddit",
-            url: "https://www.reddit.com/",
-            icon: "brand-reddit",
-            icon_color: "#e78a4e",
+            url: 'https://horizon.ucp.edu.pk/web/login',
+            name: 'horizon',
+            icon: 'book',
+            icon_color: "#7265b6",
+
           },
           {
             name: "youtube",
@@ -59,47 +60,95 @@ const default_config = {
             icon_color: "#ea6962",
           },
           {
-            name: "twitch",
-            url: "https://www.twitch.tv/",
-            icon: "brand-twitch",
-            icon_color: "#d3869b",
+            name: 'dart',
+            url: 'https://www.deviantart.com/',
+            icon: 'leaf',
+            icon_color: '#79ae51'
+          },
+          {
+            name: 'insta',
+            url: 'https://www.instagram.com/',
+            icon: 'brand-instagram',
+            icon_color: '#c13e86'
+          },
+          {
+            name: 'fb',
+            url: 'https://facebook.com/',
+            icon: 'brand-facebook',
+            icon_color: '#535fac'
+          },
+          ,
+          {
+            name: 'gmail',
+            url: 'https://mail.google.com/mail/',
+            icon: 'mail',
+            icon_color: '#cf4430'
           },
         ],
       }, {
-        name: "Games",
+        name: 'Browsing',
         links: [
           {
-            name: "chess",
-            url: "https://www.chess.com/home",
-            icon: "chess-queen-filled",
-            icon_color: "#a9b665",
+            name: '/pp/',
+            url: 'https://ppforum.pakpassion.net/forums/cricket.9/'
           },
           {
-            name: "monkeytype",
-            url: "https://monkeytype.com/",
-            icon: "keyboard",
-            icon_color: "#e78a4e",
+            name: '/pcrkt/',
+            url: 'https://www.planetcricket.org/forums/'
           },
           {
-            name: "tetris",
-            url: "https://tetris.com/",
-            icon: "brand-apple-arcade",
-            icon_color: "#ea6962",
+            name: '/espn/',
+            url: 'https://www.espncricinfo.com/'
           },
-        ],
-      }, {
-        name: "Video",
+          {
+            name: '/sofifa/',
+            url: 'https://sofifa.com/?offset=20'
+          },
+          {
+            name: '/getty/',
+            url: 'https://www.gettyimages.com/editorial-images'
+          }
+          ,
+          {
+            name: '/bsnoop/',
+            url: 'https://gettyimages-downloader.beatsnoop.com/'
+          }
+          ,
+          {
+            name: '/google images/',
+            url: 'https://www.google.com/imghp?hl=en&authuser=0&ogbl'
+          }
+        ]
+      },{
+        name: "Tech",
         links: [
           {
-            name: "disney+",
-            url: "https://www.disneyplus.com/home",
-            icon: "brand-disney",
+            name: 'Github',
+            url: 'https://github.com/',
+            icon: 'brand-github'
+          },
+          {
+            name: 'Onedrive',
+            url: 'https://onlinepgc-my.sharepoint.com/my',
+            icon: 'brand-onedrive',
             icon_color: "#7daea3",
           },
           {
-            name: "primevideo",
-            url: "https://www.primevideo.com/region/eu/?ref_=dv_web_unknown",
-            icon: "brand-amazon",
+            name: 'GPT',
+            url: 'https://chatgpt.com/',
+            icon: 'brand-hipchat'
+          },
+          {
+            name: 'Gemini',
+            url: 'https://gemini.google.com/app',
+            icon: 'minimize',
+            icon_color: '#5e49b6'
+          }
+          ,
+          {
+            name: 'Copilot',
+            url: 'https://copilot.microsoft.com/',
+            icon: 'brand-github-copilot',
             icon_color: "#7daea3",
           },
         ],
@@ -161,7 +210,7 @@ const default_config = {
             },
             {
               name: "adobe color",
-              url: "https://color.adobe.com/es/create/color-wheel",
+              url: "https://color.adobe.com/create/color-wheel",
               icon: "brand-adobe",
               icon_color: "#7daea3",
             },
