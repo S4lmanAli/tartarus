@@ -35,7 +35,7 @@ const default_config = {
         name: "Social Media",
         links: [
           {
-            name: "twitter",
+            name: "x",
             url: "https://twitter.com/home",
             icon: "brand-twitter-filled",
             icon_color: "#7daea3",
