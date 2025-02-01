@@ -133,6 +133,11 @@ const default_config = {
             icon: 'brand-hipchat'
           },
           {
+            name: 'Deepseek',
+            url: 'https://chat.deepseek.com',
+            icon: 'brand-hipchat'
+          },
+          {
             name: 'Gemini',
             url: 'https://gemini.google.com/app',
             icon: 'minimize',
